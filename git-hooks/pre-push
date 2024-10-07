@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+ 
+echo "RUNNING PRE-PUSH SCRIPT"
+python3 setup.py license_check
+if [ $? -eq 1 ]
+then
+    echo "License is missing in some files" >&2
+    exit 1
+fi
+
+echo "DONE: RUNNING PRE-PUSH SCRIPT"
