@@ -19,7 +19,7 @@ pip install vwo-openfeature-provider-python
 
 ```python
 from openfeature import api
-from vwo_provider.vwo_provider import VWOProvider
+from vwo_provider import VWOProvider
 from openfeature.evaluation_context import EvaluationContext
 from vwo import init
 
