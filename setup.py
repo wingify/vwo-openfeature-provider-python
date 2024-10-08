@@ -121,7 +121,7 @@ class PostDevelopCommand(develop):
 
 setup(
     name="vwo-openfeature-provider-python",
-    version="1.0.0",
+    version="1.1.0",
     description="VWO OpenFeature Provider Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
